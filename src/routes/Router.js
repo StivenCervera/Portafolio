@@ -17,13 +17,13 @@ const Router = () => {
         
         <Switch>
 
-        <Route exact path="/Portafolio" component={Home} />
+        <Route exact path="/" component={Home} />
 
-        <Route exact path="perfil" component={Perfil} />
+        <Route exact path="/perfil" component={Perfil} />
 
-        <Route exact path="estudios" component={Estudios} />
+        <Route exact path="/estudios" component={Estudios} />
 
-        <Route exact path="experiencia" component={Experiencia} />
+        <Route exact path="/experiencia" component={Experiencia} />
 
         <Route>
             <Error404 />
