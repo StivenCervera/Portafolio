@@ -137,7 +137,7 @@ img {
 }
 
 .nav__link {
-  color: var(--text-color);
+  color: #ffffff;
 }
 
 .nav__link:hover {
