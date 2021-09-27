@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portafolio/static/css/main.dd006512.chunk.css",
+    "main.js": "/Portafolio/static/js/main.54cb0fbc.chunk.js",
+    "main.js.map": "/Portafolio/static/js/main.54cb0fbc.chunk.js.map",
+    "runtime-main.js": "/Portafolio/static/js/runtime-main.ba0bd254.js",
+    "runtime-main.js.map": "/Portafolio/static/js/runtime-main.ba0bd254.js.map",
+    "static/js/2.e94e69ec.chunk.js": "/Portafolio/static/js/2.e94e69ec.chunk.js",
+    "static/js/2.e94e69ec.chunk.js.map": "/Portafolio/static/js/2.e94e69ec.chunk.js.map",
+    "index.html": "/Portafolio/index.html",
+    "static/css/main.dd006512.chunk.css.map": "/Portafolio/static/css/main.dd006512.chunk.css.map",
+    "static/js/2.e94e69ec.chunk.js.LICENSE.txt": "/Portafolio/static/js/2.e94e69ec.chunk.js.LICENSE.txt",
+    "static/media/e404.55f08e4f.jpg": "/Portafolio/static/media/e404.55f08e4f.jpg",
+    "static/media/hacker.33149d5a.jpg": "/Portafolio/static/media/hacker.33149d5a.jpg",
+    "static/media/img.98c2d4de.jpeg": "/Portafolio/static/media/img.98c2d4de.jpeg",
+    "static/media/serpiente1.a2150d68.png": "/Portafolio/static/media/serpiente1.a2150d68.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba0bd254.js",
+    "static/js/2.e94e69ec.chunk.js",
+    "static/css/main.dd006512.chunk.css",
+    "static/js/main.54cb0fbc.chunk.js"
+  ]
+}
