@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import img from '../img/serpiente1.png' 
 
 const Header = () => {
     return (
         <header className="l-header">
             <nav className="nav bd-grid">
                 <div>
-                    <Link to="" className="nav__logo">FSCB</Link>
+                    <Link to="" className="nav__logo"><img src={img} alt="" width="55" /></Link>
                 </div>
 
                 <div className="nav__menu" id="nav-menu">

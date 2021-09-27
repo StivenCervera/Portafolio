@@ -5,11 +5,9 @@ import img from '../img/img.jpeg'
 
 const HomeP = () => {
 
-    useEffect(() => {
-    gsap.to(".first", .8, {delay: .3, top: "200%", ease: Expo.easeInOut});
-    gsap.to(".second", .8, {delay: .5, top: "200%", ease: Expo.easeInOut});
-    gsap.to(".third", 1, {delay: .7, top: "-100%", ease: Expo.easeInOut});
-    gsap.to(".four", 1, {delay: .9, top: "-100%", ease: Expo.easeInOut});
+    useEffect(() =>  {
+    gsap.to(".first", {delay: 1, duration:2, left: "-200%", ease: Expo.easeInOut});
+    gsap.to(".second",{delay: 1, duration:2, left: "200%", ease: Expo.easeInOut});
 
     //IMG
     gsap.from('.home__img', {opacity: 0, duration: 2, delay: 1.4, x: 60})
@@ -31,21 +29,19 @@ const HomeP = () => {
         <div>
             <div class="overlay first"></div>
             <div class="overlay second"></div>
-            <div class="overlay third"></div>
-            <div class="overlay four"></div>
 
             <main className="l-main bd-grid">
                 <div className="home">
-                    <div className="home__information">
-                        <span className="home__pressent anime-text">Hey!! Me Llamo</span>
-                        <h1 className="home__title anime-text">Freddy</h1>
-                        <span className="home__skill anime-text">Y Soy Desarrollador Web</span>
-                    
-                    </div>
-
                     <div className="home__img" >
                         <img src={img} alt="" className="imgH" />
                     </div>
+                    <div className="home__information">
+                        <span className="home__pressent anime-text">Me presento, soy</span>
+                        <h1 className="home__title anime-text">Stiven</h1>
+                        <span className="home__skill anime-text">Y soy programador full-stack</span>
+                    </div>
+
+                    
                     
                     <div className="home__social">
                         <a href="https://www.facebook.com/profile.php?id=100016167039922"><ion-icon name="logo-facebook" class="home__social-icon"></ion-icon></a>
@@ -56,6 +52,7 @@ const HomeP = () => {
                 </div>
             </main>
         </div>
+        
     )
 }
 

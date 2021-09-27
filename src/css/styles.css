@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 /*----- VARIABLES CSS Y SASS -----*/
 /*Varibles sass*/
 /*Variables css*/
@@ -11,7 +11,7 @@
 
 /*Fuente y tipografia*/
 :root {
-  --body-font: "Poppins", sans-serif;
+  --body-font: 'Montserrat', sans-serif;
   --h1-font-size: 2.5rem;
   --h2-font-size: 1rem;
   --normal-font-size: 0.93rem;
@@ -48,7 +48,7 @@
 body {
   margin: 3rem 0 0 0;
   font-family: var(--body-font);
-  background-color: var(--black-color);
+  background-color: #0e7fa9;
   color: var(--white-color);
   font-weight: 700;
   overflow: hidden;
@@ -87,7 +87,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--black-color);
+  background-color: #0e7fa9;
 }
 
 /*----- PAGES -----*/
@@ -142,16 +142,20 @@ img {
 
 .nav__link:hover {
   position: relative;
+  
 }
 
 .nav__link:hover::after {
+  display: flex;
   position: absolute;
   content: "";
-  width: 1.5rem;
+  align-items: center;
+  width: 2.5rem;
   height: 0.1875rem;
   left: 0.125rem;
-  top: 2.125rem;
-  background-color: var(--first-color);
+  top: 1.5rem;
+  background-color: #ffffff;
+  transition: 1s;
 }
 .selected {
   letter-spacing: 2px;
@@ -176,7 +180,7 @@ img {
 /*Home*/
 .l-main {
   height: calc(100vh - 3rem);
-  background-color: var(--black-color);
+  background-color: #0e7fa9;
 }
 
 .home {
@@ -254,16 +258,19 @@ img {
   -ms-flex-direction: column;
   flex-direction: column;
   padding-bottom: 1rem;
+  
 }
 
 .home__social-icon {
   margin-bottom: 2rem;
   font-size: 1.33rem;
   cursor: pointer;
+  color: #ffffff;
 }
 
 .home__social-icon:hover {
-  color: var(--first-color);
+  color: #070842;
+  transition: 1s;
 }
 
 /*-------POP UP----------*/
@@ -274,7 +281,7 @@ img {
 }
 
 .popUpText:hover {
-  color: #4546ac;
+  color: #ffffff;
 }
 
 .perfilPop {
@@ -382,11 +389,11 @@ img {
 
   .home__img > .imgH {
     width: 90%;
-    height: 750px;
+    height: 90vh;
     filter: blur(1px);
-    filter: drop-shadow(16px 16px 20px rgba(3, 11, 56, 0.808));
+    filter: drop-shadow(16px 16px 20px rgb(3, 11, 56));
     filter: opacity(40%);
-    border-radius: 2%;
+    border-radius: 10%;
   }
 }
 
@@ -403,7 +410,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 50%;
   height: 100%;
   z-index: var(--z-modal);
 }
@@ -414,17 +421,9 @@ img {
 
 .second {
   background-color: var(--first-color);
-  left: 25%;
-}
-
-.third {
-  background-color: var(--first-color);
   left: 50%;
 }
-.four {
-  background-color: var(--first-color);
-  left: 75%;
-}
+
 
 .titilar {
   animation: 1s Titilar infinite linear;
